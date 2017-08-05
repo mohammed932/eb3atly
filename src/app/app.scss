@@ -1,0 +1,47 @@
+
+
+@font-face{
+    font-family: Bariol_Regular;
+    src:url('../assets/fonts/Bariol_Regular.otf');
+}
+*{
+    font-family: Bariol_Regular;
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+}
+
+.swiper-pagination-bullet-active {
+    background: #f4f4f4;
+    opacity: 1;
+}
+// .tabs-md .tab-button[aria-selected=true] .tab-button-icon{
+//     background: white !important;
+// }
+.tabs-md .tab-button[aria-selected=true]{
+    color:white !important;
+}
+.tabs-md .tabbar{
+    background: #262626;
+}
+.tabs-md .tab-button[aria-selected=true] .tab-button-icon {
+    color: #f4f4f4;
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0);
+}
+.tabs-md .tab-button-icon{
+        color: #929292;
+}
+
+.tabs-md .tab-button{
+    color: white;
+}
+
+
+
+.toolbar-background {
+    background-color: transparent !important;
+}

@@ -1,0 +1,31 @@
+page-leading {
+    .content.content-ios {
+        background-image:url('../assets/img/pexels-photo-509819.png') !important;
+    }
+    .content.content-md{
+        background-image:url('../assets/img/pexels-photo-509819.png') !important;
+    }
+    .fb-button{
+        background: #49639f;
+        border-radius: 16px;
+    }
+    .fb-col{
+        position: relative;
+        right: 10px;
+    }
+    .account-col{
+        position: relative;
+        right: 10px;
+    }
+    .account-btn{
+        background: none !important;
+        border: 1px solid white;
+        width: 94%;
+        color: white
+    }
+    .have-account {
+      margin-left: 16px;
+      color: white;
+    }
+
+}

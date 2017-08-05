@@ -1,0 +1,35 @@
+page-login {
+  .content.content-ios{
+     background-image:url('../assets/img/pexels-photo-509819.png') !important;
+  }
+  .content.content-md{
+     background-image:url('../assets/img/pexels-photo-509819.png') !important;
+  }
+//   .toolbar-background toolbar-background-md{
+//       background: none !important;
+//   }
+
+  .toolbar-background-md{
+       background: none !important;
+  }
+
+  .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+      height:0
+  }
+    .login-text{
+      font-size: 4rem;
+      color: white;
+    }
+    .item-md{
+            background-color: transparent;
+    }
+    .btn-login{
+        background: transparent !important;
+        border:1px solid white;
+        position: relative;
+        top: 22rem;
+    }
+    .item-input .label-md, .item-select .label-md, .item-datetime .label-md {
+        color: #f4f4f4;
+    }
+}

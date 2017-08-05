@@ -1,0 +1,46 @@
+page-home {
+   .card-md{
+       margin: 0px 0px !important;
+       width: calc(100%);
+   }
+   .card-content-md{
+       padding:0;
+   }
+   .my-card{
+      margin-bottom: 11px !important;
+   }
+   .toolbar-background-md{
+    //    background-image: url('../assets/img/scooter.jpg') !important;
+   }
+   ion-header {
+    background:linear-gradient(to right, #36d1dc, #5b87e5);
+   }
+   .header-md::after, .tabs-md[tabsPlacement="top"] > .tabbar::after, .footer-md::before, .tabs-md[tabsPlacement="bottom"] > .tabbar::before{
+      height:0
+   }
+   .toolbar-title-md{
+       text-align: center;
+       position: relative;
+       left: 2rem;
+   }
+   .noti-btn{
+     position: relative;
+    //  right: 33rem;
+   }
+   .segment-md .segment-button{
+       color: white;
+       border:0;
+   }
+   
+   .segment-md .segment-button.activated, .segment-md .segment-button.segment-activated{
+       border-color: #f86d6f;
+       border-bottom:2px solid #f86d6f !important;
+   }
+   .segment-toolbar .toolbar-content{
+       align-self:flex-end;
+   }
+
+   .segment-toolbar {
+       padding:0;
+   }
+}
